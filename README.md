@@ -16,7 +16,7 @@ out any received messages and replies to the sender with another
 
 We ran the script in hub mode on a Raspberry Pi and in edge node mode
 on a laptop (the XBee chip was connected to the laptop over a USB
-cable and one of these).
+cable and one of [these](http://adafru.it/247).
 
 ## How do I run the scripts?
 
