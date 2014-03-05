@@ -96,7 +96,7 @@ request to the hub and the hub will reply to the edge nodes.
 The python-xbee `ZigBee.tx` calls require both a long destination
 address (`dest_long_addr`) and a short destination address
 (`dest_addr`). To address the hub (ie a Coordinator node) we can use a
-long destination address of `0x0000000000000000`s and a destination
+long destination address of `0x0000000000000000` and a destination
 address of `0xFFFE` (unknown / breadcast address). These addresses
 allowed us to send a message successfully from the edge node to the
 hub.
