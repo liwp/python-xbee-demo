@@ -38,7 +38,7 @@ dispatch.register('at_response', at_response_handler, lambda p: p['id'] == 'at_r
 dispatch.register('remote_at_response', default_handler, lambda p: p['id'] == 'remote_at_response')
 dispatch.register('node_id_indicator', default_handler, lambda p: p['id'] == 'node_id_indicator')
 
-zb = ZigBee(ser, callback = dispatch.dispatch)
+zb = ZigBee(ser, callback = dispatch.dispatch, escaped = True)
 
 print "run..."
 print ""
